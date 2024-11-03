@@ -1,0 +1,67 @@
+body{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+    margin-left: 4rem;
+}
+
+.Wlc{
+    color: #5ddc18;
+    font-weight: bold;
+}
+
+.header{
+    color: aliceblue;
+}
+
+.description{
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+/* 
+div{
+    background-color: aliceblue;
+} */
+
+.myImage{
+    max-width: 30%;
+    height: auto;
+    border-radius: 5%;
+    margin: 2rem;
+}
+
+.mySection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   /*  align-items: flex-end; */
+}
+
+
+
+
+
+
+
+
+
+/* visited link */
+a:visited {
+    color: #5ddc18;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
