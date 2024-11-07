@@ -63,5 +63,65 @@ a:visited {
   
   /* selected link */
   a:active {
-    color: blue;
+    color: #5ddc18;
+ 
   }
+
+  .myImageSecond{
+    margin-left: 15rem;
+  }
+
+  .navBar a:visited {
+    color: aliceblue;
+  }
+
+  .navBar a {
+    margin: 7rem;
+    font-weight: bold;
+
+  }
+
+  .navBar  {
+    padding: 1rem 5px;
+    background-color: #5ddc18;
+    margin-top: -0.6rem;
+    
+    margin-left: -4rem;
+  }
+
+  .navBar p{
+    display: inline;
+    margin: 5rem;
+  }
+
+  .dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5ddc18;
+    min-width: 160px;
+    border-radius: 15px;
+    z-index: 1;
+  }
+  
+  .dropdown-content p {
+    padding: 5px;
+
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #53c715;}
